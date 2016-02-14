@@ -20,6 +20,11 @@ html{
     border-color: gray;
     float: right;
 }
+#answer{
+    width: 600px;
+    height: 100px; 
+}
+
 
 h1{
     padding-top:10%;
