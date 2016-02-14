@@ -1,34 +1,36 @@
-<html>
-  <head>
-    <title>Descriptionary!</title>
-    <!--To be inserted: Javascript-->
-    <link rel="stylesheet" type="text/css" href="descriptionary.css">
-    <link href="http://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
-  </head>
+<head>
+  <title>Descriptionary!</title>
+  <!--To be inserted: Javascript-->
+  <link rel="stylesheet" type="text/css" href="descriptionary.css">
+  <link href="http://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+</head>
 
-  <body>
+<body>
 
-    <div id="home">
-      <h1> Welcome to Descriptionary! </h1>
-      <div id="center"><a href="#" class="action-button shadow animate gray">Play</a></div>
+  <div id="home">
+    {{> welcome}}
+    <div id="center"><a href="#" class="action-button shadow animate gray">Play</a></div>
+  </div>
+
+  <div id="describer">
+    <p1> You are the describer </p1>
+    <div id="hints">
+<!--<li> J.S. insert things -->
     </div>
-
-    <div id="describer">
-      <p1> You are the describer </p1>
-      <div id="hints">
-	<!--<li> J.S. insert things -->
-      </div>
-      <div id="picture">
-	<img src="http://camranger.com/wp-content/uploads/2014/10/Android-Icon.png" style="height:600px;width:1000px;">
-      </div>
+    <div id="picture">
+<img src="http://camranger.com/wp-content/uploads/2014/10/Android-Icon.png" style="height:600px;width:1000px;">
     </div>
+  </div>
 
-    <div id="answerer">
-      <div id="submissions">
-      </div>
-      <div id="submit">
-      </div>
+  <div id="answerer">
+    <div id="submissions">
     </div>
-  </body>
-</html>
+    <div id="submit">
+    </div>
+  </div>
+</body>
+
+<template name ="welcome">
+    <h1> Welcome to Descriptionary! </h1>
+</template>
