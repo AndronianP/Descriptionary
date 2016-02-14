@@ -57,6 +57,12 @@ h1{
     text-align:center;
     font-family:'Droid Sans', Arial;
 }
+h2{
+    padding-top:11%;
+    font-size:30px;
+    text-align:center;
+    font-family:'Droid Sans', Arial;
+}
 
 .animate
 {
